@@ -1,0 +1,609 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navImage img{
+    width: 236px;
+    height: 126px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav ul{
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.List{
+    display: flex;
+    gap: 26.56px;
+}
+
+.List ul li a{
+    text-decoration: none;
+    color: #000000;
+
+}
+
+.navBtn{
+    width: 209.75px;
+    height: 65.1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 18.08px 13.56px 18.08px 13.56px;
+    gap: 13.56px;
+    border-radius: 5px 0px 0px 0px;
+    border: 1px solid #FF0000;
+    opacity: 0px;
+
+}
+
+.navBtn a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.HeroSection{
+    display: flex;
+}
+
+.bg{
+    width: 100%;
+}
+
+.Background{
+    width: 100%;
+    height: 1200px;
+    position: relative;
+    bottom: 100px;
+}
+
+.HeroHeader{
+    width: 469px;
+    height: 210px;
+    position: absolute;
+    top: 213px;
+    left: 126px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.HeroHeader h2{
+    font-family: Lato;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.heroSectiontext{
+    color: #FFF;
+
+}
+
+.p-text{
+    width: 445px;
+    height: 108px;
+    position: absolute;
+    top: 445px;
+    left: 126px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.p-text p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justified;
+
+}
+
+.HeroSect_btn{
+    width: 209.75px;
+    height: 65.1px;
+    background-color: #FFF;
+    top: 587px;
+    left: 126px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18.08px 13.56px 18.08px 13.56px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+}
+
+.HeroSect_btn  img{
+    width: 28.93px;
+    height: 28.93px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.HeroSect_btn a{
+    text-decoration: none;
+    color: #0082C4;
+    display: flex;
+    gap: 13.56px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.HeroBtn{
+    display: flex;
+    gap: 18px;
+}
+
+.HeroSect_Btn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF0000;
+    width: 222.1px;
+    height: 65.1px;
+    padding: 18.08px 13.56px 18.08px 13.56px;
+    border-radius: 5px;
+}
+
+
+.HeroSect_Btn2 a{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.Hero_Img{
+    width: 305px;
+    height: 713px;
+    position: absolute;
+    top: 68px;
+    left: 600px;
+    gap: 9.69px;
+    opacity: 0px;
+    z-index: 1;
+}
+
+.Hero_Img img{
+    width: 650px;
+}
+
+.Section3  {
+    position: absolute;
+    top: 690px;
+    height: 1077px;
+    width: 100%;
+    background-image: linear-gradient(to right, #0686C9, #fff, #FF8D8D);
+}
+
+.divOne{
+    background-color: #fff;
+    width: 310px;
+    height: 340.92px;
+    padding: 64px 10px 30px 30px;
+    gap: 0px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #4f4c4c;
+}
+
+.divTwo{
+    background-color: #fff;
+    width: 310px;
+    height: 340.92px;
+    padding: 64px 10px 30px 30px;
+    gap: 0px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #4f4c4c;
+}
+
+.divThree{
+    background-color: #fff;
+    width: 310px;
+    height: 340.92px;
+    padding: 64px 10px 30px 30px;
+    gap: 0px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #4f4c4c;
+}
+
+.Training{
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+
+}
+
+.cardOnehead h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cardOnehead p {
+    font-weight: 400;
+    font-size: 18px;
+}
+.cardOneimage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 34px !important;
+}
+
+.cardOneimage img{
+    width: 33px;
+    height: 33px;
+    top: 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.cardOneimage a {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.cardTwohead h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cardTwoimage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 41px !important;
+}
+
+.cardTwoimage img{
+    width: 33px;
+    height: 33px;
+    top: 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.cardTwohead p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cardTwoimage a {
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.cardThreehead h3{
+    font-size: 18px;
+    font-weight: 700;   
+}
+
+.cardThreehead p{
+    font-weight: 400;
+    font-size: 18px;
+    width: 270px;
+}
+
+.cardThreeimage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: -2px;
+}
+
+.cardThreeimage a{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.cardThreeimage img{
+    width: 33px;
+    height: 33px;
+    top: 2px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.divFour{
+    background-color: #fff;
+    width: 310px;
+    height: 340.92px;
+    padding: 64px 10px 30px 30px;
+    gap: 0px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #4f4c4c;
+}
+
+.cardFourhead h3{
+    font-size: 18px;
+    font-weight: 700; 
+}
+
+.cardFourhead p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cardFourimage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 16px;
+}
+
+.cardFourimage a{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.divFive{
+    background-color: #fff;
+    width: 310px;
+    height: 340.92px;
+    padding: 64px 10px 30px 30px;
+    gap: 0px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #4f4c4c;
+}
+
+.cardFivehead h3{
+    font-size: 18px;
+    font-weight: 700;     
+}
+
+.cardFivehead p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cardFiveimage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cardFiveimage a{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.divSix{
+    background-color: #fff;
+    width: 310px;
+    height: 340.92px;
+    padding: 64px 10px 30px 30px;
+    gap: 0px;
+    border-radius: 5px solid #fff;
+    opacity: 0px;
+    box-shadow: 0px 2px 10px 0px #4f4c4c;
+}
+
+.cardSixhead h3{
+    font-size: 18px;
+    font-weight: 700;   
+}
+
+.cardSixhead p{
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.cardSiximage{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    top: 5px;
+}
+
+.cardSiximage a{
+    font-family: DM Sans;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27.2px;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+}
+
+.moreCourses{
+    width: 209.75px;
+    height: 65.1px;
+    position: relative;
+    left: 840px;
+    padding: 18.08px 13.56px 18.08px 13.56px;
+    gap: 13.56px;
+    border-radius: 5px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #FF0000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreCourses a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    gap: 13.56px;
+    align-items: center;
+}
+
+.SectionFour{
+    width: 1449px;
+    height: 894px;
+    position: relative;
+    top: 500px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.Man{
+    position: relative;
+}
+
+.Man::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0477C5;
+    z-index: 1;
+    opacity: 70%;
+}
+
+.Man img{
+    position: relative;
+}
+
+.ManLink{
+    width: 301px;
+    height: 67px;
+    gap: 0px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #fff;
+    z-index: 1;
+}
+
+.ManLink a {
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25.18px;
+    text-align: left;
+    color: #fff;
+
+}
+
+.Group-pic{
+    position: relative;
+    left: -27px;
+}
+
+.Group-pic::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FF0000;
+    z-index: 1;
+    opacity: 70%;
+    
+}
+
+.Group-pictext{
+    width: 343px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.Group-pictext a{
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+    color: #0083C4;
+}
+
+.Group-pictext p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justified;
+    position: relative;
+    top: 30px;
+
+}
+
+.AnotherGrouptext{
+    position: relative;
+    top: 30px;
+}
+
+.AnotherGrouptext a{
+    text-decoration: none;
+    color: #0083C4;
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: left;
+}
+
+.AnotherGrouptext p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justified;
+    width: 230px;
+}
+
+.schoolvilleImg{
+    position: absolute;
+    right: -60px;
+    bottom: 160px;
+    width: 401.35px;
+}
