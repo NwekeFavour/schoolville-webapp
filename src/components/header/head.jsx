@@ -16,8 +16,30 @@ import SignIn from './Images/SignIn.svg';
 import Man from './Images/man.svg';
 import GroupPic from './Images/Union.svg';
 import SchoolvilleArt from './Images/image 537.svg';
+import Pin from './Images/pin.svg';
 import './head.css'
 import { Col, Container, Row } from 'react-bootstrap';
+import SponsorOne from './Images/logo_1.svg';
+import SponsorTwo from './Images/logo_2.svg';
+import SponsorThree from './Images/logo_3.svg';
+import SponsorFour from './Images/logo_4.svg';
+import SponsorFive from './Images/logo_5.svg';
+import SponsorSix from './Images/logo_6.svg';
+import SponsorSeven from './Images/Component 1.svg';
+import SponsorEight from './Images/Component 3.svg';
+import SponsorNine from './Images/logo_7.svg';
+import SponsorTen from './Images/logo_8.svg';
+import SponsorEleven from './Images/logo_9.svg';
+import SponsorTwelve from './Images/logo_10.svg';
+import SponsorThirteen from './Images/logo_11.svg';
+import SponsorFourteen from './Images/logo_12.svg';
+import SponsorFifteen from './Images/Component 4.svg';
+import SponsorSixteen from './Images/Component 2.svg';
+import FooterBg from './Images/logo-white.svg';
+import FooterWatermark from './Images/logo_variance.svg';
+import FooterInput from './Images/Submit.svg';
+import FooterBgTwo from './Images/Ellipse 4.svg';
+
 
 function head(props) {
   return (
@@ -294,6 +316,211 @@ function head(props) {
           </Row>
         </Container>
       </section>
+
+      {/* Fourth Section */}
+
+      <section className='Section4 d-flex justify-content-center text-center'>
+        <div className='SectionFourHead m-5'>
+          <div>
+            <div className='d-flex justify-content-center'>
+              <img
+                className='img'
+                src={Pin}
+              />
+            </div>
+            <h3>It is time to start investing in yourself in learning</h3>
+          </div>
+          <div className='Section4-p-text '>
+                <p>Match your goals to our program,explore your options and and map out your path to success! <span>Schoolville</span> is right here for you.</p>
+          </div>
+          <div className='RegisterFour'>
+            <a className='d-flex gap-3 justify-content-center align-items-center text-decoration-none text-light' href=''>
+              Register
+              <img
+              src={SignIn}
+              />
+            </a>
+          </div>
+          <div className='Main_Sponsors'>
+              <div className='SectionFourTwo'><h3>Trusted by our awesome partners</h3></div>
+              <Container className='Sponsors'>
+                <Row>
+                  <Col>
+                    <img
+                    className='SponsorImages'
+                    src={SponsorOne}
+                    />
+                  </Col>
+                  <Col>
+                    <img
+                    className='SponsorImages'
+                    src={SponsorTwo}
+                    />
+                  </Col>
+                  <Col>
+                    <img 
+                    className='SponsorImages'
+                    src={SponsorThree}
+                    />
+                  </Col>
+                  <Col>
+                    <img
+                    className='SponsorImages'
+                    src={SponsorFour}
+                    />
+                  </Col>
+                  <Col>
+                    <img
+                    className='SponsorImages'
+                    src={SponsorFive}
+                    />
+                  </Col>
+                  <Col>
+                    <img 
+                    className='SponsorImages'
+                    src={SponsorSix}
+                    />
+                  </Col>
+                  <Col>
+                    <img
+                    className='SponsorImages'
+                    src={SponsorSeven}
+                    />
+                  </Col>
+                  <Col>
+                    <img
+                    className='SponsorImages'
+                    src={SponsorEight}
+                    />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorNine}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorTen}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorEleven}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorTwelve}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorThirteen}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorFourteen}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorFifteen}
+                  />
+                  </Col>
+                  <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorSixteen}
+                  />
+                  </Col>
+                </Row>
+              </Container>
+            </div>
+        </div>    
+      </section>
+
+      {/* Footer Section */}
+      <footer>
+        <div>
+          <div className='d-flex'>
+            <div className='FooterForm'>
+              <div className='FooterWmark'>
+                <img
+                className='F_watermark'
+                src={FooterWatermark}
+                />
+                <img
+                className='F_watermark1'
+                src={FooterBgTwo}
+                />
+              </div>
+              <img
+              className='FooterImages'
+              src={FooterBg}
+              />
+              <div className='Footer-p-text text-light d-block'> 
+                <p>Subscribe to our Newsletter</p>
+                <p className='E_address'>Enter your email address</p>
+                <input type='text' className='border-0 bg-transparent'/>
+                  <img
+                  src={FooterInput}
+                  />
+              </div>
+            </div>
+          </div>
+          <div className=''></div>
+        </div>
+        <div className='Height'></div>
+        <div className='FooterEnd d-flex text-light'>
+          <div>
+            <h3 className='text-uppercase text-light'>Schoolville Training <br/> centre south-west origin</h3>
+            <p>Plot 530A Aina, Akingbala Street (Omole Phase 2), Ikeja Lagos.
+              +234 08023503315;
+              +234 07044458674
+              ikeja@schoolville.com
+            </p>
+          </div>
+          <div>
+            <h3 className='text-uppercase text-light'>Schoolville Training <br/> centre south-west origin</h3>
+            <p>Plot 530A Aina, Akingbala Street (Omole Phase 2), Ikeja Lagos.
+              +234 08023503315;
+              +234 07044458674
+              ikeja@schoolville.com
+            </p>
+          </div>
+          <div>
+            <h3 className='text-uppercase text-light'>Schoolville Training <br/> centre south-west origin</h3>
+            <p>Plot 530A Aina, Akingbala Street (Omole Phase 2), Ikeja Lagos.
+              +234 08023503315;
+              +234 07044458674
+              ikeja@schoolville.com
+            </p>
+          </div>
+          <div>
+            <h3 className='text-uppercase text-light'>Schoolville Training <br/> centre south-west origin</h3>
+            <p>Plot 530A Aina, Akingbala Street (Omole Phase 2), Ikeja Lagos.
+              +234 08023503315;
+              +234 07044458674
+              ikeja@schoolville.com
+            </p>
+          </div>
+        </div>
+        <div className='HeightOne'></div>
+        <div className='FooterBottom text-light'>
+          <div><p>FAQ’s | Policies | Careers | Press</p></div>
+          <div><p>© COPYRIGHT 2023 SCHOOLVILLE</p></div>
+        </div>
+      </footer>
     </div>
   );
 }
