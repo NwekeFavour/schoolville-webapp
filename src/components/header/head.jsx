@@ -18,7 +18,7 @@ import GroupPic from './Images/Union.svg';
 import SchoolvilleArt from './Images/image 537.svg';
 import Pin from './Images/pin.svg';
 import './head.css'
-import { Col, Container, Row } from 'react-bootstrap';
+import { Card, Col, Container, Row } from 'react-bootstrap';
 import SponsorOne from './Images/logo_1.svg';
 import SponsorTwo from './Images/logo_2.svg';
 import SponsorThree from './Images/logo_3.svg';
@@ -47,6 +47,10 @@ function head(props) {
       <section className='Navbar'>
         <div  className='nav'>
           <div className='navImage'>
+            <img
+            className='d-none'
+            src={HeaderImage}
+            />
             <img
             src={HeaderImage}
             />
@@ -77,6 +81,14 @@ function head(props) {
         <div className='HeroSection'>
           <div className='bg'>
             <img
+            className='d-none'
+            src={FooterBgTwo}
+            />
+            <img
+            className='BgTwo d-none'
+            src={FooterBgTwo}
+            />
+            <img
             className='Background'
             src={HeroSectionBg}
             />
@@ -97,12 +109,22 @@ function head(props) {
                   </a>
                 </div>
                 <div className='HeroSect_Btn2'>
-                  <a href='#'>
-                    Explore our courses
-                    <img
-                    src={HeroBtnTwo}
-                    />
+                  <div className='d-none mainBtn'>
+                    <a href='#'>
+                      Explore
+                      <img
+                      src={HeroBtnTwo}
+                      />
                   </a>
+                  </div>
+                  <div>
+                    <a href='#'>
+                      Explore our courses
+                      <img
+                      src={HeroBtnTwo}
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
@@ -125,20 +147,14 @@ function head(props) {
               </div>
             </Col>
           </Row>
-          <Row className='m-5'>
+          <Row className='m-5 CardSection'>
             <Col>
-                <div className='divOne'>
-                  <div>
-                    <img
-                    className='m-1'
-                    src={Tower}
-                    />
-                  </div>
-                  <div className='cardOnehead mt-3'>
-                    <h3 className='text-uppercase'>computer training</h3>
-                    <p>We train Individuals to be computer literate and professionals in the use of ICT tool</p>
-                  </div>
-                  <div className='cardOneimage mt-4'>
+                <Card className='divOne' border='light'>
+                  <Card.Header><img src={Tower}/></Card.Header>
+                  <Card.Body>
+                    <Card.Title className='text-uppercase'>computer training</Card.Title>
+                    <Card.Text>We train Individuals to be computer literate and professionals in the use of ICT tools</Card.Text>
+                    <div className='cardOneimage mt-4'>
                     <img
                     src={Linker}
                     />
@@ -146,21 +162,16 @@ function head(props) {
                       Explore
                     </a>
                   </div>
-                </div>
+                  </Card.Body>
+                </Card>
             </Col>
             <Col>
-                <div className='divTwo'>
-                  <div>
-                    <img
-                    className='m-1'
-                    src={Graduation}
-                    />
-                  </div>
-                  <div className='cardTwohead mt-2'>
-                    <h3 className='text-uppercase'>career training</h3>
-                    <p>We train individuals on how to manage and run their career. Whether you are looking for a new job or already on a job..</p>
-                  </div>
-                  <div className='cardTwoimage mt-5'>
+                <Card border='light' className='divTwo'>
+                  <Card.Header><img src={Graduation}/></Card.Header>
+                  <Card.Body>
+                    <Card.Title className='text-uppercase'>career training</Card.Title>
+                    <Card.Text>We train individuals on how to manage and run their career. Whether you are looking for a new job or already on a job..</Card.Text>
+                    <div className='cardOneimage mt-4'>
                     <img
                     src={Linker}
                     />
@@ -168,45 +179,35 @@ function head(props) {
                       Explore
                     </a>
                   </div>
-                </div>
+                  </Card.Body>
+                </Card>
             </Col>
             <Col>
-                <div className='divThree'>
-                  <div>
-                    <img
-                    className='m-1'
-                    src={Briefcase}
-                    />
-                  </div>
-                  <div className='cardThreehead mt-1'>
-                    <h3 className='text-uppercase'>corporate training</h3>
-                    <p>At Schoolville, we offer trainings tailored for corporate bodies and government agencies. We allow our client to choose their training programme</p>
-                  </div>
-                  <div className='cardThreeimage'>
+                <Card border='light' className='divThree'>
+                  <Card.Header><img src={Briefcase}/></Card.Header>
+                  <Card.Body>
+                    <Card.Title className='text-uppercase'>corporate training</Card.Title>
+                    <Card.Text>At Schoolville, we offer trainings tailored for corporate bodies and government agencies...........</Card.Text>
+                    <div className='cardOneimage mt-4'>
                     <img
                     src={Linker}
                     />
-                    <a href=''>
+                    <a href='#'>
                       Explore
                     </a>
                   </div>
-                </div>
+                  </Card.Body>
+                </Card>
             </Col>
           </Row>
-          <Row className='m-5'>
+          <Row className='m-5 CardSection_Two'>
             <Col>
-                <div className='divFour'>
-                  <div>
-                    <img
-                    className='m-1'
-                    src={Selection}
-                    />
-                  </div>
-                  <div className='cardFourhead mt-3'>
-                    <h3 className='text-uppercase'>ui/ux design</h3>
-                    <p>The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design.</p>
-                  </div>
-                  <div className='cardFourimage '>
+                <Card border='light' className='divFour'>
+                  <Card.Header><img src={Selection}/></Card.Header>
+                  <Card.Body>
+                    <Card.Title className='text-uppercase'>ui/ux design</Card.Title>
+                    <Card.Text>The UI/UX Design Specialization brings a design-centric approach to user interface and user experience design.</Card.Text>
+                    <div className='cardOneimage mt-4'>
                     <img
                     src={Linker}
                     />
@@ -214,21 +215,16 @@ function head(props) {
                       Explore
                     </a>
                   </div>
-                </div>
+                  </Card.Body>
+                </Card>
             </Col>
             <Col>
-                <div className='divFive'>
-                  <div>
-                    <img
-                    className='m-1'
-                    src={Mobile}
-                    />
-                  </div>
-                  <div className='cardFivehead mt-2'>
-                    <h3 className='text-uppercase'>mobile development</h3>
-                    <p>Build job-ready skills by learning from the best. Get started in the in-demand field of Mobile Development design with a Professional Certificate</p>
-                  </div>
-                  <div className='cardFiveimage mt-3'>
+                <Card border='light' className='divFive'>
+                  <Card.Header><img src={Mobile}/></Card.Header>
+                  <Card.Body>
+                    <Card.Title className='text-uppercase'>mobile technology</Card.Title>
+                    <Card.Text>Build job-ready skills by learning from the best. Get started in the in-demand field of Mobile Development design with a Professional Certificate</Card.Text>
+                    <div className='cardOneimage mt-4'>
                     <img
                     src={Linker}
                     />
@@ -236,29 +232,25 @@ function head(props) {
                       Explore
                     </a>
                   </div>
-                </div>
+                  </Card.Body>
+                </Card>
             </Col>
             <Col>
-                <div className='divSix'>
-                  <div>
-                    <img
-                    className='m-1'
-                    src={Squarebox}
-                    />
-                  </div>
-                  <div className='cardSixhead mt-1'>
-                    <h3 className='text-uppercase'>software development</h3>
-                    <p>Front End Programming using Javascript, PHP or Visual Studio .NET and Backend Programming using MySQL or Microsoft SQL Server, Phython Programming.</p>
-                  </div>
-                  <div className='cardSiximage mt-1'>
+                <Card border='light' className='divSix'>
+                  <Card.Header><img src={Squarebox}/></Card.Header>
+                  <Card.Body>
+                    <Card.Title className='text-uppercase'>software technology</Card.Title>
+                    <Card.Text>Front End Programming using Javascript, PHP or Visual Studio .NET and Backend Programming using MySQL or Microsoft SQL Server, Phython Programming.</Card.Text>
+                    <div className='cardOneimage mt-4'>
                     <img
                     src={Linker}
                     />
-                    <a href=''>
+                    <a href='#'>
                       Explore
                     </a>
                   </div>
-                </div>
+                  </Card.Body>
+                </Card>
             </Col>
           </Row>
           <div className='moreCourses'>
@@ -470,11 +462,13 @@ function head(props) {
               />
               <div className='Footer-p-text text-light d-block'> 
                 <p>Subscribe to our Newsletter</p>
-                <p className='E_address'>Enter your email address</p>
-                <input type='text' className='border-0 bg-transparent'/>
+                {/* <p className='E_address'>Enter your email address</p> */}
+                <input placeholder='Enter your email address' type='text' className='border-0 bg-transparent'/>
+                <a href='#'>
                   <img
-                  src={FooterInput}
+                    src={FooterInput}
                   />
+                </a>
               </div>
             </div>
           </div>
@@ -519,6 +513,10 @@ function head(props) {
         <div className='FooterBottom text-light'>
           <div><p>FAQ’s | Policies | Careers | Press</p></div>
           <div><p>© COPYRIGHT 2023 SCHOOLVILLE</p></div>
+        </div>
+        <div className='d-flex justify-content-between '>
+          <div className='LastSection col-4'></div>
+          <div className='LastSection_One col-4'></div>
         </div>
       </footer>
     </div>
