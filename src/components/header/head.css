@@ -901,7 +901,7 @@ width: 300px;
         width: 200px;
         height: 80px;
         position: relative;
-        right: 50px;
+        right: 20px;
     }
 
     .bg{
@@ -929,6 +929,12 @@ width: 300px;
         display: block !important;
     }
 
+    .heroSectiontext{
+        position: relative;
+        right: 352px;
+        width: 100%;
+    }
+
     .HeroHeader{
         position: relative;
         left: -320px;
@@ -939,6 +945,8 @@ width: 300px;
         font-size: 35px;
         line-height: 35px;
         width: 250px;
+        position: relative;
+        left: 349px;
     }
 
     .HeroBtn{
@@ -992,7 +1000,14 @@ width: 300px;
 
     .Hero_Img img{
         width: 325px;
+        position: relative;
+        left: 110px;
     }
+
+    .p-text{
+        width: 100px;
+    }
+
 
     .p-text p{
         position: relative;
@@ -1009,14 +1024,6 @@ width: 300px;
         height: 50px !important;
     }
 
-    .List{
-        display: none !important;
-        position: absolute;
-        left: 0;
-        padding: 20px;
-        display: block;
-        text-align: justify;
-    }
 
     .List ul li{
         padding: 10px;
@@ -1122,16 +1129,16 @@ width: 300px;
     .Man{
         position: relative;       
         bottom: 30rem;
-        right: 36px;
+        right: 20px;
+        
     }
 
     .Man::before{
         content: "";
         position: absolute;
-        top: 0;
-        left: 0;
-        width: 352px;
-        height: 746px;
+        top: 0rem;
+        right: 20px;
+        width: 360px;
         background-color: #0477C5;
         z-index: 1;
         opacity: 50%;
@@ -1139,7 +1146,7 @@ width: 300px;
     }
 
     .Man img{
-        width: 352px;
+        width: 360px;
 
     }
 
@@ -1157,46 +1164,50 @@ width: 300px;
 
     .Group-pic img{
         position: relative;
-        right: 10rem;
-        bottom: 60px;
+        left: 358px;
+        bottom: 50rem;
         width: 352px;
         /* height: 155px; */
     }
     .Group-pic::before{
         content: "";
         position: absolute;
-        top: -60px;
-        left: -160px;
-        width: 352px;
+        left: 358px;
+        width: 329px;
+        top: -50rem;
         background-color: #FF0000;
         z-index: 1;
         opacity: 70%;
     }
 
+    .Group-pictext{
+        width: 100%;
+    }
+
     .Group-pictext a{
         position: relative;
-        bottom: -40px;
-        right: 500px;
+        bottom: 50rem;
         font-size: 35px;
         line-height: 35px;
         display: block;
         width: 300px;
         padding: 5px;
+        font-weight: 500;
     }
 
     .Group-pictext p{
         position: relative;
-        right: 490px;
-        top: 50px;
+        right: -8px;
+        top: -50rem;
         width: 320px;
-        line-height: 20px;
+        line-height: 35px;
     }
 
     .AnotherGrouptext a{
         position: relative;
-        right: 61rem;
-        top: 57rem;
+        bottom: 14rem;
         font-size: 35px;
+        font-weight: 500;
         line-height: 35px;
         display: block;
         width: 300px;
@@ -1205,8 +1216,7 @@ width: 300px;
 
     .AnotherGrouptext p{
         position: relative;
-        right: 61rem;
-        top: 58rem;
+        bottom: 14rem;
         /* font-size: 35px; */
         line-height: 35px;
         display: block;
@@ -1217,18 +1227,191 @@ width: 300px;
     .schoolvilleImg{
         width: 100%;
         position: relative;
-        right: 66rem;
+        left: 0;
         height: 305px;
         top: 60rem;
     }
 
-    .SectionFourHead{
+    .Section4{
+            position: relative;
+            left: 0;
+            top: 85rem;  
+            height: 82rem;
+    }
+
+
+    .SectionFour{
+        position: relative;
+        right: 24px;
         width: 100%;
+        margin: 0;
+    }
+
+    .SectionFourHead{
+        position: relative;
+        top: 20px;
+        width: 90%;
         height: 500px;
     }
 
     .SectionFourHead .img{
-        width: 62px;
-        height: 62px;
+        /* width: 62px;
+        height: 62px; */
     }
+
+    .SectionFourTwo h3{
+        font-size: 35px;
+        font-weight: 500;
+        line-height: 40px;
+        margin: 20px;
+        display: flex;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .Section4-p-text p{
+        position: relative;
+        left: 6px;
+        bottom: 37px;
+        width: 300px;
+    }
+
+    .schoolvilleImg{
+        position: relative;
+        top: -12rem;
+    }
+
+    .RegisterFour{
+        position: relative;
+        left: 48px;
+        top: -20px;
+    }
+
+    .Sponsors{
+        width: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 0px;
+        bottom: 70px;
+    }
+
+    footer{
+        position: relative;
+        top: 82rem;
+        height: 80rem;
+    }
+
+    .FooterEnd{
+        display: block !important;
+    }
+
+    .FooterImages{
+        width: 200px;
+        position: relative;
+        left: 160px;
+        bottom: 17px;
+    }
+
+    .Footer-p-text{
+        position: relative;
+        left: -13px;
+        top: 57rem;
+        height: 100px;
+    }
+
+    .Footer-p-text input{
+        width: 300px;
+    }
+
+    .Footer-p-text p:first-child{
+        font-size: 15px;
+    }
+
+    .Footer-p-text a img{
+        position: relative;
+        top: -13px;
+        left: 270px;
+    }
+
+    .Height{
+        display: none;
+    }
+
+    .HeightOne{
+        position: relative;
+        top: 63rem;
+    }
+
+    .FooterEnd{
+        position: relative;
+        top: 100px;
+        left: 20px;
+        width: 100px;
+    }
+
+    .FooterForm{
+        position: absolute;
+        left: -458px;
+    }
+
+    .FooterForm .F_watermark{
+        position: relative;
+        top: 100px;
+        left: 215px;
+        width: 300px;
+    }
+
+    .FooterForm .F_watermark1  {
+        display: none;
+    }
+
+    .FooterWmark{
+        position: relative;
+        left: 245px;
+    }
+
+    .FooterBottom{
+        position: relative;
+        top: 60rem;
+        left: 60px;
+        display: block;
+        font-size: 14px;
+    }
+
+    .FooterBottom div:last-child p:first-child{
+        display: flex;
+    }
+
+    .Last_Section{
+        position: relative;
+        top: 47.4rem;
+    }
+
+    .Nav_Link{
+        position: relative;
+        left: 30px;
+        display: block !important;
+    }
+    
+    .Nav_Link img{
+        width: 30px;
+    }
+
+    .LIST {
+        display: block !important;
+    }
+
+    .List{
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background-color: #0082C4;
+        padding: 20px;
+        text-align: justify;
+        z-index: 1;
+    }
+
 }

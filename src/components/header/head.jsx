@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import HeaderImage from './Images/logo.svg';
 import ArrowIcon from './Images/arrow.svg';
 import HeroSectionBg from './Images/hero_bkg.svg';
@@ -39,9 +39,15 @@ import FooterBg from './Images/logo-white.svg';
 import FooterWatermark from './Images/logo_variance.svg';
 import FooterInput from './Images/Submit.svg';
 import FooterBgTwo from './Images/Ellipse 4.svg';
+import navigation from './Images/menu.png';
+import navigationExit from './Images/close.png';
 
 
 function head(props) {
+
+  const [navOpen, setNavOpen] = useState(false);
+  const [navClose, setNavClose] = useState(false);
+
   return (
     <div>
       <section className='Navbar'>
@@ -55,8 +61,11 @@ function head(props) {
             src={HeaderImage}
             />
           </div>
+          <div className='d-none Nav_Link'>
+            <img onClick={() => setNavOpen(!navOpen)} src={navigation}/>
+          </div>
           <div className='navList'>
-            <nav className='List'>
+            <nav className={`List ${navOpen ? "LIST" : ''}`}>
               <ul>
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>About us</a></li>
@@ -281,29 +290,29 @@ function head(props) {
                 </div>
             </Col>
             <Col className='d-block'>
-                <div className='Group-pic'>
+              <div className='Group-pic'>
                   <img
                   src={GroupPic}
                   />
-                </div>
-                <div className='Group-pictext'>
+              </div>
+              <div className='Group-pictext'>
                   <a href='' className='text-capitalize'>Learn In-Demand Skill
                   to boost your chances
                   of getting a Job.</a>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                </div>
+              </div>
             </Col>
             <Col>
-                <div className='AnotherGrouptext'>
-                  <a className='text-capitalize' href=''>learn online or on-site</a>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only popularised.....</p>
-                </div>
-                <div>
+              <div className='AnotherGrouptext'>
+                <a className='text-capitalize' href=''>learn online or on-site</a>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only popularised.....</p>
+              </div>
+              <div>
                 <img
                 className='schoolvilleImg'
                 src={SchoolvilleArt}
                 />
-                </div>
+              </div>
             </Col>
           </Row>
         </Container>
@@ -323,7 +332,7 @@ function head(props) {
             <h3>It is time to start investing in yourself in learning</h3>
           </div>
           <div className='Section4-p-text '>
-                <p>Match your goals to our program,explore your options and and map out your path to success! <span>Schoolville</span> is right here for you.</p>
+            <p>Match your goals to our program,explore your options and and map out your path to success! <span>Schoolville</span> is right here for you.</p>
           </div>
           <div className='RegisterFour'>
             <a className='d-flex gap-3 justify-content-center align-items-center text-decoration-none text-light' href=''>
@@ -334,110 +343,112 @@ function head(props) {
             </a>
           </div>
           <div className='Main_Sponsors'>
-              <div className='SectionFourTwo'><h3>Trusted by our awesome partners</h3></div>
-              <Container className='Sponsors'>
-                <Row>
-                  <Col>
-                    <img
-                    className='SponsorImages'
-                    src={SponsorOne}
-                    />
-                  </Col>
-                  <Col>
-                    <img
-                    className='SponsorImages'
-                    src={SponsorTwo}
-                    />
-                  </Col>
-                  <Col>
-                    <img 
-                    className='SponsorImages'
-                    src={SponsorThree}
-                    />
-                  </Col>
-                  <Col>
-                    <img
-                    className='SponsorImages'
-                    src={SponsorFour}
-                    />
-                  </Col>
-                  <Col>
-                    <img
-                    className='SponsorImages'
-                    src={SponsorFive}
-                    />
-                  </Col>
-                  <Col>
-                    <img 
-                    className='SponsorImages'
-                    src={SponsorSix}
-                    />
-                  </Col>
-                  <Col>
-                    <img
-                    className='SponsorImages'
-                    src={SponsorSeven}
-                    />
-                  </Col>
-                  <Col>
-                    <img
-                    className='SponsorImages'
-                    src={SponsorEight}
-                    />
-                  </Col>
-                </Row>
-                <Row>
-                  <Col>
+            <div className='SectionFourTwo'>
+              <h3>Trusted by our awesome partners</h3>
+            </div>
+            <Container className='Sponsors'>
+              <Row>
+                <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorOne}
+                  />
+                </Col>
+                <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorTwo}
+                  />
+                </Col>
+                <Col>
+                  <img 
+                  className='SponsorImages'
+                  src={SponsorThree}
+                  />
+                </Col>
+                <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorFour}
+                  />
+                </Col>
+                <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorFive}
+                  />
+                </Col>
+                <Col>
+                   <img 
+                  className='SponsorImages'
+                  src={SponsorSix}
+                   />
+                </Col>
+                <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorSeven}
+                  />
+                </Col>
+                <Col>
+                  <img
+                  className='SponsorImages'
+                  src={SponsorEight}
+                  />
+                </Col>
+              </Row>
+              <Row>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorNine}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorTen}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorEleven}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorTwelve}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorThirteen}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorFourteen}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorFifteen}
                   />
-                  </Col>
-                  <Col>
+                </Col>
+                <Col>
                   <img
                   className='SponsorImages'
                   src={SponsorSixteen}
                   />
-                  </Col>
-                </Row>
-              </Container>
-            </div>
+                </Col>
+              </Row>
+            </Container>
+          </div>
         </div>    
       </section>
 
@@ -462,7 +473,6 @@ function head(props) {
               />
               <div className='Footer-p-text text-light d-block'> 
                 <p>Subscribe to our Newsletter</p>
-                {/* <p className='E_address'>Enter your email address</p> */}
                 <input placeholder='Enter your email address' type='text' className='border-0 bg-transparent'/>
                 <a href='#'>
                   <img
@@ -514,7 +524,8 @@ function head(props) {
           <div><p>FAQ’s | Policies | Careers | Press</p></div>
           <div><p>© COPYRIGHT 2023 SCHOOLVILLE</p></div>
         </div>
-        <div className='d-flex justify-content-between '>
+
+        <div className='d-flex justify-content-between Last_Section'>
           <div className='LastSection col-4'></div>
           <div className='LastSection_One col-4'></div>
         </div>
