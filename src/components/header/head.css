@@ -931,8 +931,9 @@ width: 300px;
 
     .heroSectiontext{
         position: relative;
-        right: 352px;
+        /* right: 352px; */
         width: 100%;
+        right: 368px;
     }
 
     .HeroHeader{
@@ -1001,7 +1002,7 @@ width: 300px;
     .Hero_Img img{
         width: 325px;
         position: relative;
-        left: 110px;
+        left: 100px;
     }
 
     .p-text{
@@ -1138,7 +1139,7 @@ width: 300px;
         position: absolute;
         top: 0rem;
         right: 20px;
-        width: 360px;
+        width: 373px;
         background-color: #0477C5;
         z-index: 1;
         opacity: 50%;
@@ -1146,13 +1147,13 @@ width: 300px;
     }
 
     .Man img{
-        width: 360px;
+        width: 373px;
 
     }
 
     .ManLink{
         position: relative;
-        left: -6px;
+        left: 18px;
         bottom: 600px;
     }
 
@@ -1386,7 +1387,7 @@ width: 300px;
 
     .Last_Section{
         position: relative;
-        top: 47.4rem;
+        top: 48.7rem;
     }
 
     .Nav_Link{

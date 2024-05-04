@@ -66,7 +66,7 @@ function head(props) {
           </div>
           <div className='navList'>
             <nav className={`List ${navOpen ? "LIST" : ''}`}>
-              <ul>
+              <ul>-
                 <li><a href='#'>Home</a></li>
                 <li><a href='#'>About us</a></li>
                 <li><a href='#'>Training</a></li>
