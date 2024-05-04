@@ -1139,7 +1139,7 @@ width: 300px;
         position: absolute;
         top: 0rem;
         right: 20px;
-        width: 373px;
+        width: 360px;
         background-color: #0477C5;
         z-index: 1;
         opacity: 50%;
@@ -1147,13 +1147,13 @@ width: 300px;
     }
 
     .Man img{
-        width: 373px;
+        width: 360px;
 
     }
 
     .ManLink{
         position: relative;
-        left: 18px;
+        left: -6px;
         bottom: 600px;
     }
 
