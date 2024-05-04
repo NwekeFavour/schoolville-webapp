@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -21,6 +24,9 @@
     gap: 4rem;
     list-style-type: none;
     margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 
@@ -82,10 +88,11 @@
 }
 
 .HeroHeader h2{
-    font-family: Lato;
     font-size: 70px;
-    font-weight: 700;
     line-height: 70px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .heroSectiontext{
@@ -104,7 +111,8 @@
 }
 
 .p-text p{
-    font-family: Inter;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
     font-size: 18px;
     font-weight: 400;
     line-height: 25px;
@@ -142,6 +150,7 @@
     font-size: 18px;
     font-weight: 600;
     text-align: left;
+    font-family: "Lato", sans-serif;
 }
 
 .HeroBtn{
@@ -162,11 +171,14 @@
 
 
 .HeroSect_Btn2 a{
+    font-weight: 600;
+    font-size: 18px;
     display: flex;
     text-decoration: none;
     align-items: center;
     gap: 10px;
     color: #fff;
+    font-family: "Lato", sans-serif;
 }
 
 .Hero_Img{
@@ -194,6 +206,7 @@
 
 .divOne{
     /* background-color: #fff; */
+    font-family: "Inter", sans-serif;
     width: 18rem;
     height: 20rem;
     gap: 0px;
@@ -221,10 +234,12 @@
 }
 
 .Training{
-    font-family: Lato;
     font-size: 35px;
-    font-weight: 700;
     line-height: 60px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  
 
 }
 
@@ -253,7 +268,7 @@
 }
 
 .cardOneimage a {
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
@@ -288,13 +303,14 @@
 }
 
 .cardTwoimage a {
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
     text-align: left;
     text-decoration: none;
     color: #000000;
+    
 }
 
 .cardThreehead h3{
@@ -317,7 +333,7 @@
 }
 
 .cardThreeimage a{
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
@@ -362,7 +378,7 @@
 }
 
 .cardFourimage a{
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
@@ -397,7 +413,7 @@
 }
 
 .cardFiveimage a{
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
@@ -434,7 +450,7 @@
 }
 
 .cardSiximage a{
-    font-family: DM Sans;
+    font-family: "DM Sans", sans-serif;
     font-size: 17px;
     font-weight: 500;
     line-height: 27.2px;
@@ -518,7 +534,7 @@
     line-height: 25.18px;
     text-align: left;
     color: #fff;
-
+    font-family: "Inter", sans-serif;
 }
 
 .Group-pic{
@@ -550,10 +566,12 @@
     text-decoration: none;
     font-family: Lato;
     font-size: 35px;
-    font-weight: 700;
     line-height: 40px;
     text-align: left;
     color: #0083C4;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .Group-pictext p{
@@ -564,7 +582,7 @@
     text-align: justified;
     position: relative;
     top: 30px;
-
+    font-family: "Inter", sans-serif;
 }
 
 .AnotherGrouptext{
@@ -577,9 +595,11 @@
     color: #0083C4;
     font-family: Lato;
     font-size: 35px;
-    font-weight: 700;
     line-height: 40px;
     text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
 }
 
 .AnotherGrouptext p{
@@ -589,6 +609,7 @@
     line-height: 25px;
     text-align: justified;
     width: 230px;
+    font-family: "Inter", sans-serif;
 }
 
 .schoolvilleImg{
@@ -1028,11 +1049,19 @@ width: 300px;
 
     .List ul li{
         padding: 10px;
+        
+    }
+
+    nav{
+        font-family: "Lato", sans-serif;
+        font-weight: 700;
+        font-style: normal;
     }
 
     .List ul{
         padding: 20px;
         display: block;
+        
     }
 
     .navBtn{
